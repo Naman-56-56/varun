@@ -1,0 +1,227 @@
+{
+  "type": "FeatureCollection",
+  "name": "Delhi_Flood_Hotspot_Zones",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ZONE_MINTO",
+        "name": "Minto Bridge Underpass",
+        "ward": "Ward 74, Central Delhi",
+        "elevation_m": 208.5,
+        "slope_pct": 0.4,
+        "impervious_pct": 92,
+        "drainage_id": "DRAIN_BARAPULLAH_FEEDER_1",
+        "drainage_capacity_m3s": 12.5,
+        "historical_flood_freq": 0.95,
+        "base_risk": "CRITICAL",
+        "soil_type": "Alluvial Clay",
+        "critical_infra": ["Railway Underbridge", "Emergency Hospital Corridor"],
+        "catchment_area_km2": 3.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.2215, 28.6340], [77.2260, 28.6340], [77.2260, 28.6300], [77.2215, 28.6300], [77.2215, 28.6340]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ZONE_ITO",
+        "name": "ITO Ring Road & Vikas Marg",
+        "ward": "Ward 81, East Central",
+        "elevation_m": 207.2,
+        "slope_pct": 0.3,
+        "impervious_pct": 88,
+        "drainage_id": "DRAIN_YAMUNA_FEEDER_2",
+        "drainage_capacity_m3s": 24.0,
+        "historical_flood_freq": 0.85,
+        "base_risk": "HIGH",
+        "soil_type": "Silty Loam",
+        "critical_infra": ["Police HQ", "Income Tax Office", "Vikas Bhawan"],
+        "catchment_area_km2": 6.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.2380, 28.6310], [77.2480, 28.6310], [77.2480, 28.6230], [77.2380, 28.6230], [77.2380, 28.6310]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ZONE_KASHMERE_GATE",
+        "name": "Kashmere Gate ISBT & Monastery",
+        "ward": "Ward 88, North Delhi",
+        "elevation_m": 205.8,
+        "slope_pct": 0.2,
+        "impervious_pct": 85,
+        "drainage_id": "DRAIN_SUPPLEMENTARY_1",
+        "drainage_capacity_m3s": 30.0,
+        "historical_flood_freq": 0.90,
+        "base_risk": "CRITICAL",
+        "soil_type": "Yamuna Alluvium",
+        "critical_infra": ["ISBT Bus Terminal", "Metro Interchange Hub"],
+        "catchment_area_km2": 7.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.2250, 28.6720], [77.2370, 28.6720], [77.2370, 28.6620], [77.2250, 28.6620], [77.2250, 28.6720]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ZONE_AIIMS_UNDERPASS",
+        "name": "AIIMS - Safdarjung Ring Road",
+        "ward": "Ward 58, South Delhi",
+        "elevation_m": 215.0,
+        "slope_pct": 1.2,
+        "impervious_pct": 90,
+        "drainage_id": "DRAIN_KUSHAK_NALLAH",
+        "drainage_capacity_m3s": 18.0,
+        "historical_flood_freq": 0.70,
+        "base_risk": "HIGH",
+        "soil_type": "Sandy Loam",
+        "critical_infra": ["Apex Trauma Centre", "AIIMS Hospital Emergency", "Safdarjung Hospital"],
+        "catchment_area_km2": 4.5
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.2030, 28.5720], [77.2140, 28.5720], [77.2140, 28.5630], [77.2030, 28.5630], [77.2030, 28.5720]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ZONE_DWARKA_SEC8",
+        "name": "Dwarka Sector 8 Underpass & Metro Corridor",
+        "ward": "Ward 34, South West Delhi",
+        "elevation_m": 218.0,
+        "slope_pct": 0.8,
+        "impervious_pct": 82,
+        "drainage_id": "DRAIN_NAJAFGARH_LINK_3",
+        "drainage_capacity_m3s": 22.0,
+        "historical_flood_freq": 0.75,
+        "base_risk": "HIGH",
+        "soil_type": "Loamy Sand",
+        "critical_infra": ["Airport Express Link", "Dwarka Sector 8 Metro"],
+        "catchment_area_km2": 5.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.0620, 28.5750], [77.0780, 28.5750], [77.0780, 28.5620], [77.0620, 28.5620], [77.0620, 28.5750]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ZONE_MAYUR_VIHAR",
+        "name": "Mayur Vihar Phase 1 & Noida Link",
+        "ward": "Ward 92, Trans-Yamuna",
+        "elevation_m": 204.5,
+        "slope_pct": 0.2,
+        "impervious_pct": 86,
+        "drainage_id": "DRAIN_SHAHDARA_OUTLET",
+        "drainage_capacity_m3s": 35.0,
+        "historical_flood_freq": 0.88,
+        "base_risk": "CRITICAL",
+        "soil_type": "Floodplain Silt",
+        "critical_infra": ["Noida-Delhi Expressway Connector", "Chilla Regulator"],
+        "catchment_area_km2": 8.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.2880, 28.6050], [77.3050, 28.6050], [77.3050, 28.5920], [77.2880, 28.5920], [77.2880, 28.6050]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ZONE_CP_OUTER",
+        "name": "Connaught Place Radial Corridors",
+        "ward": "Ward 72, New Delhi",
+        "elevation_m": 216.5,
+        "slope_pct": 1.0,
+        "impervious_pct": 95,
+        "drainage_id": "DRAIN_NDMC_CENTRAL",
+        "drainage_capacity_m3s": 28.0,
+        "historical_flood_freq": 0.45,
+        "base_risk": "MODERATE",
+        "soil_type": "Urban Made Ground",
+        "critical_infra": ["Commercial Hub", "Rajiv Chowk Interchange"],
+        "catchment_area_km2": 3.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.2120, 28.6360], [77.2250, 28.6360], [77.2250, 28.6270], [77.2120, 28.6270], [77.2120, 28.6360]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ZONE_PUL_PRAHLADPUR",
+        "name": "Pul Prahladpur Underpass",
+        "ward": "Ward 52, South East Delhi",
+        "elevation_m": 211.0,
+        "slope_pct": 0.5,
+        "impervious_pct": 89,
+        "drainage_id": "DRAIN_BADARPUR_OUTFALL",
+        "drainage_capacity_m3s": 14.0,
+        "historical_flood_freq": 0.92,
+        "base_risk": "CRITICAL",
+        "soil_type": "Clay Loam",
+        "critical_infra": ["Mehrauli-Badarpur Arterial"],
+        "catchment_area_km2": 4.1
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.2750, 28.5120], [77.2900, 28.5120], [77.2900, 28.5000], [77.2750, 28.5000], [77.2750, 28.5120]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ZONE_LAJPAT_NAGAR",
+        "name": "Lajpat Nagar Ring Road & Jal Vihar",
+        "ward": "Ward 60, South Delhi",
+        "elevation_m": 213.0,
+        "slope_pct": 0.9,
+        "impervious_pct": 91,
+        "drainage_id": "DRAIN_BARAPULLAH_MAIN",
+        "drainage_capacity_m3s": 42.0,
+        "historical_flood_freq": 0.55,
+        "base_risk": "MODERATE",
+        "soil_type": "Sandy Loam",
+        "critical_infra": ["Central Market", "Ring Road Flyover Junction"],
+        "catchment_area_km2": 5.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.2350, 28.5780], [77.2500, 28.5780], [77.2500, 28.5650], [77.2350, 28.5650], [77.2350, 28.5780]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ZONE_SARITA_VIHAR",
+        "name": "Sarita Vihar Underpass & Mathura Road",
+        "ward": "Ward 50, South East Delhi",
+        "elevation_m": 209.8,
+        "slope_pct": 0.4,
+        "impervious_pct": 87,
+        "drainage_id": "DRAIN_AGRA_CANAL_LINK",
+        "drainage_capacity_m3s": 16.5,
+        "historical_flood_freq": 0.82,
+        "base_risk": "HIGH",
+        "soil_type": "Alluvial Loam",
+        "critical_infra": ["Mathura Road NH-19", "Apollo Hospital Access"],
+        "catchment_area_km2": 4.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[77.2880, 28.5350], [77.3020, 28.5350], [77.3020, 28.5230], [77.2880, 28.5230], [77.2880, 28.5350]]]
+      }
+    }
+  ]
+}

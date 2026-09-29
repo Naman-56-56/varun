@@ -1,0 +1,47 @@
+[
+  {
+    "id": "HIST_DELHI_2023_07",
+    "event_name": "July 2023 Yamuna Peak Monsoon Inundation",
+    "date": "2023-07-13",
+    "peak_rainfall_mm_24h": 153.0,
+    "peak_depth_cm": 115.0,
+    "primary_causes": [
+      "Hathnikund barrage discharge exceeding 3.5 lakh cusecs",
+      "Backflow into ITO regulator and Barapullah drain",
+      "Severe siltation in trunk drainage outfalls"
+    ],
+    "severely_affected_areas": ["ITO Ring Road", "Kashmere Gate ISBT", "Monastery Market", "Yamuna Bazar", "Mayur Vihar 1"],
+    "economic_impact_cr": 850,
+    "evacuations_count": 27000
+  },
+  {
+    "id": "HIST_DELHI_2024_06",
+    "event_name": "June 2024 Cloudburst & Pre-Monsoon Flash Flood",
+    "date": "2024-06-28",
+    "peak_rainfall_mm_24h": 228.1,
+    "peak_depth_cm": 95.0,
+    "primary_causes": [
+      "Record 9-hour extreme localized downpour (highest in 88 years)",
+      "Minto Bridge pump trip due to feeder substation flooding",
+      "Complete catchment saturation across South and Central Delhi"
+    ],
+    "severely_affected_areas": ["Minto Bridge", "AIIMS Underpass", "Airport T1 Underpass", "Pul Prahladpur", "Dwarka Underpasses"],
+    "economic_impact_cr": 420,
+    "evacuations_count": 8500
+  },
+  {
+    "id": "HIST_DELHI_2022_09",
+    "event_name": "September 2022 Urban Waterlogging & Gridlock",
+    "date": "2022-09-22",
+    "peak_rainfall_mm_24h": 85.5,
+    "peak_depth_cm": 52.0,
+    "primary_causes": [
+      "Multiple short-duration intense convective cells (>40 mm/hr)",
+      "Uncleaned storm drains with 60% silt buildup",
+      "Surface runoff from high imperviousness in commercial corridors"
+    ],
+    "severely_affected_areas": ["Sarita Vihar", "Lajpat Nagar Ring Road", "Dhaula Kuan NH-48", "Vikas Marg"],
+    "economic_impact_cr": 160,
+    "evacuations_count": 1200
+  }
+]

@@ -1,0 +1,352 @@
+{
+  "type": "FeatureCollection",
+  "name": "Delhi_Road_Network",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ROAD_CP_MINTO",
+        "name": "Connaught Circus to Minto Road",
+        "start_node": "NODE_CP",
+        "end_node": "NODE_MINTO",
+        "road_type": "Primary Arterial",
+        "lanes": 6,
+        "length_km": 1.2,
+        "speed_kmh": 45,
+        "base_elevation_m": 208.5,
+        "is_underpass": true,
+        "critical_evac_route": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [77.2195, 28.6328],
+          [77.2220, 28.6330],
+          [77.2238, 28.6320]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ROAD_MINTO_ITO",
+        "name": "Deen Dayal Upadhyaya Marg (Minto to ITO)",
+        "start_node": "NODE_MINTO",
+        "end_node": "NODE_ITO",
+        "road_type": "Primary Arterial",
+        "lanes": 6,
+        "length_km": 1.8,
+        "speed_kmh": 50,
+        "base_elevation_m": 207.2,
+        "is_underpass": false,
+        "critical_evac_route": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [77.2238, 28.6320],
+          [77.2340, 28.6300],
+          [77.2420, 28.6280]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ROAD_CP_BARAKHAMBA_ITO",
+        "name": "Barakhamba Road & Sikandra Road (CP to ITO High Ridge)",
+        "start_node": "NODE_CP",
+        "end_node": "NODE_ITO",
+        "road_type": "Elevated / Ridge Secondary",
+        "lanes": 4,
+        "length_km": 2.4,
+        "speed_kmh": 40,
+        "base_elevation_m": 216.0,
+        "is_underpass": false,
+        "critical_evac_route": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [77.2195, 28.6328],
+          [77.2280, 28.6270],
+          [77.2360, 28.6250],
+          [77.2420, 28.6280]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ROAD_CP_DHAULA_KUAN",
+        "name": "Vande Mataram Marg (CP to Dhaula Kuan)",
+        "start_node": "NODE_CP",
+        "end_node": "NODE_DHAULA_KUAN",
+        "road_type": "Express Corridor",
+        "lanes": 6,
+        "length_km": 8.5,
+        "speed_kmh": 60,
+        "base_elevation_m": 224.0,
+        "is_underpass": false,
+        "critical_evac_route": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [77.2195, 28.6328],
+          [77.1980, 28.6200],
+          [77.1750, 28.6050],
+          [77.1620, 28.5920]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ROAD_DHAULA_KUAN_AIIMS",
+        "name": "Mahatma Gandhi Ring Road (Dhaula Kuan to AIIMS)",
+        "start_node": "NODE_DHAULA_KUAN",
+        "end_node": "NODE_AIIMS",
+        "road_type": "Ring Arterial",
+        "lanes": 8,
+        "length_km": 6.8,
+        "speed_kmh": 55,
+        "base_elevation_m": 218.0,
+        "is_underpass": false,
+        "critical_evac_route": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [77.1620, 28.5920],
+          [77.1800, 28.5800],
+          [77.1950, 28.5720],
+          [77.2085, 28.5675]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ROAD_CP_AIIMS_DIRECT",
+        "name": "Aurobindo Marg / Janpath (CP to AIIMS)",
+        "start_node": "NODE_CP",
+        "end_node": "NODE_AIIMS",
+        "road_type": "Primary Arterial",
+        "lanes": 6,
+        "length_km": 7.4,
+        "speed_kmh": 50,
+        "base_elevation_m": 215.0,
+        "is_underpass": true,
+        "critical_evac_route": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [77.2195, 28.6328],
+          [77.2170, 28.6100],
+          [77.2110, 28.5850],
+          [77.2085, 28.5675]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ROAD_AIIMS_LAJPAT",
+        "name": "Ring Road (AIIMS to Lajpat Nagar)",
+        "start_node": "NODE_AIIMS",
+        "end_node": "NODE_LAJPAT",
+        "road_type": "Ring Arterial",
+        "lanes": 8,
+        "length_km": 3.6,
+        "speed_kmh": 50,
+        "base_elevation_m": 213.0,
+        "is_underpass": true,
+        "critical_evac_route": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [77.2085, 28.5675],
+          [77.2250, 28.5690],
+          [77.2420, 28.5710]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ROAD_LAJPAT_SARITA_VIHAR",
+        "name": "Mathura Road NH-19 (Lajpat Nagar to Sarita Vihar)",
+        "start_node": "NODE_LAJPAT",
+        "end_node": "NODE_SARITA_VIHAR",
+        "road_type": "National Highway Arterial",
+        "lanes": 6,
+        "length_km": 5.2,
+        "speed_kmh": 50,
+        "base_elevation_m": 209.8,
+        "is_underpass": true,
+        "critical_evac_route": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [77.2420, 28.5710],
+          [77.2650, 28.5550],
+          [77.2920, 28.5300]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ROAD_SARITA_VIHAR_PRAHLADPUR",
+        "name": "M.B. Road Link (Sarita Vihar to Pul Prahladpur)",
+        "start_node": "NODE_SARITA_VIHAR",
+        "end_node": "NODE_PRAHLADPUR",
+        "road_type": "Secondary Arterial",
+        "lanes": 4,
+        "length_km": 3.8,
+        "speed_kmh": 40,
+        "base_elevation_m": 211.0,
+        "is_underpass": true,
+        "critical_evac_route": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [77.2920, 28.5300],
+          [77.2880, 28.5180],
+          [77.2820, 28.5060]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ROAD_ITO_MAYUR_VIHAR",
+        "name": "Vikas Marg & Noida Link (ITO to Mayur Vihar)",
+        "start_node": "NODE_ITO",
+        "end_node": "NODE_MAYUR_VIHAR",
+        "road_type": "Trans-Yamuna Expressway Link",
+        "lanes": 8,
+        "length_km": 5.6,
+        "speed_kmh": 60,
+        "base_elevation_m": 204.5,
+        "is_underpass": false,
+        "critical_evac_route": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [77.2420, 28.6280],
+          [77.2650, 28.6180],
+          [77.2850, 28.6080],
+          [77.2960, 28.5980]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ROAD_ITO_KASHMERE_GATE",
+        "name": "Ring Road Bypass (ITO to Kashmere Gate ISBT)",
+        "start_node": "NODE_ITO",
+        "end_node": "NODE_KASHMERE_GATE",
+        "road_type": "Riverfront Arterial",
+        "lanes": 8,
+        "length_km": 4.8,
+        "speed_kmh": 55,
+        "base_elevation_m": 205.8,
+        "is_underpass": false,
+        "critical_evac_route": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [77.2420, 28.6280],
+          [77.2450, 28.6450],
+          [77.2400, 28.6600],
+          [77.2310, 28.6680]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ROAD_CP_KASHMERE_GATE_RIDGE",
+        "name": "Pahar Ganj - Ridge Road (CP to Kashmere Gate Safe Ridge)",
+        "start_node": "NODE_CP",
+        "end_node": "NODE_KASHMERE_GATE",
+        "road_type": "High Elevation Urban Secondary",
+        "lanes": 4,
+        "length_km": 5.5,
+        "speed_kmh": 40,
+        "base_elevation_m": 222.0,
+        "is_underpass": false,
+        "critical_evac_route": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [77.2195, 28.6328],
+          [77.2140, 28.6450],
+          [77.2180, 28.6580],
+          [77.2310, 28.6680]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ROAD_DHAULA_KUAN_DWARKA",
+        "name": "Airport Road / NH-48 (Dhaula Kuan to Dwarka Sector 8)",
+        "start_node": "NODE_DHAULA_KUAN",
+        "end_node": "NODE_DWARKA",
+        "road_type": "Airport Expressway",
+        "lanes": 8,
+        "length_km": 11.2,
+        "speed_kmh": 70,
+        "base_elevation_m": 218.0,
+        "is_underpass": true,
+        "critical_evac_route": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [77.1620, 28.5920],
+          [77.1250, 28.5800],
+          [77.0950, 28.5720],
+          [77.0700, 28.5680]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "ROAD_MAYUR_VIHAR_LAJPAT_DND",
+        "name": "DND Flyway & Barapullah Elevated (Mayur Vihar to Lajpat Nagar)",
+        "start_node": "NODE_MAYUR_VIHAR",
+        "end_node": "NODE_LAJPAT",
+        "road_type": "Elevated Expressway (Flood Proof)",
+        "lanes": 6,
+        "length_km": 6.9,
+        "speed_kmh": 65,
+        "base_elevation_m": 228.0,
+        "is_underpass": false,
+        "critical_evac_route": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [77.2960, 28.5980],
+          [77.2750, 28.5880],
+          [77.2550, 28.5780],
+          [77.2420, 28.5710]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "model_name": "Varun 3-Hour Temporal Flood Nowcasting Engine",
+  "version": "1.1.0-sequence",
+  "timesteps": [
+    "+30m",
+    "+60m",
+    "+90m",
+    "+120m",
+    "+150m",
+    "+180m"
+  ],
+  "step_mae_cm": {
+    "+30m": 2.4,
+    "+60m": 4.06,
+    "+90m": 5.17,
+    "+120m": 5.49,
+    "+150m": 5.89,
+    "+180m": 6.39
+  },
+  "features": [
+    "rain_0",
+    "impervious_pct",
+    "elevation",
+    "drainage_cap",
+    "is_underpass"
+  ]
+}

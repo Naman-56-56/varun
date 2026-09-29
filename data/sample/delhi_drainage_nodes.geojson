@@ -1,0 +1,142 @@
+{
+  "type": "FeatureCollection",
+  "name": "Delhi_Drainage_Nodes",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "NODE_INLET_MINTO",
+        "name": "Minto Bridge Storm Sump & Inlets",
+        "node_type": "Stormwater Sump / Inlet",
+        "elevation_m": 207.2,
+        "design_capacity_m3s": 15.0,
+        "connected_drain_id": "DRAIN_BARAPULLAH_FEEDER_1",
+        "catchment": "Central Delhi & Connaught Place Basin",
+        "critical_status": "HIGH_VULNERABILITY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.2215, 28.6360]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "NODE_INLET_ITO",
+        "name": "ITO Junction Storm Pump Station",
+        "node_type": "Pumping Junction",
+        "elevation_m": 208.1,
+        "design_capacity_m3s": 24.0,
+        "connected_drain_id": "DRAIN_YAMUNA_FEEDER_2",
+        "catchment": "Vikas Marg & Supreme Court Corridor",
+        "critical_status": "HIGH_VULNERABILITY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.2410, 28.6290]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "NODE_INLET_KASHMERE",
+        "name": "Kashmere Gate ISBT Collector Manholes",
+        "node_type": "Stormwater Inlet Cluster",
+        "elevation_m": 209.0,
+        "design_capacity_m3s": 28.0,
+        "connected_drain_id": "DRAIN_SUPPLEMENTARY_1",
+        "catchment": "North Delhi Ring Road",
+        "critical_status": "MODERATE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.2280, 28.6670]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "NODE_INLET_AIIMS",
+        "name": "AIIMS Underpass Sump & Manhole Cluster",
+        "node_type": "Stormwater Inlet Cluster",
+        "elevation_m": 211.5,
+        "design_capacity_m3s": 20.0,
+        "connected_drain_id": "DRAIN_KUSHAK_NALLAH",
+        "catchment": "South Delhi Arterial Basin",
+        "critical_status": "HIGH_VULNERABILITY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.2085, 28.5675]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "NODE_JUNCTION_KUSHAK_BARA",
+        "name": "Kushak-Barapullah Trunk Confluence",
+        "node_type": "Trunk Confluence Junction",
+        "elevation_m": 206.5,
+        "design_capacity_m3s": 75.0,
+        "connected_drain_id": "DRAIN_BARAPULLAH_MAIN",
+        "catchment": "South-Central Delhi Combined Discharge",
+        "critical_status": "MONITORED"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.2400, 28.5850]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "NODE_OUTFALL_WAZIRABAD",
+        "name": "Wazirabad Barrage Najafgarh Outfall",
+        "node_type": "River Outfall / Barrage Gates",
+        "elevation_m": 205.0,
+        "design_capacity_m3s": 120.0,
+        "connected_drain_id": "DRAIN_NAJAFGARH_MAIN",
+        "catchment": "Yamuna River Terminal Basin 1",
+        "critical_status": "CRITICAL_OUTFALL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.2250, 28.7150]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "NODE_OUTFALL_NIZAMUDDIN",
+        "name": "Nizamuddin Barapullah River Outfall",
+        "node_type": "River Outfall Sluice",
+        "elevation_m": 204.8,
+        "design_capacity_m3s": 85.0,
+        "connected_drain_id": "DRAIN_BARAPULLAH_MAIN",
+        "catchment": "Yamuna River Terminal Basin 2",
+        "critical_status": "CRITICAL_OUTFALL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.2650, 28.5900]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "NODE_OUTFALL_OKHLA",
+        "name": "Okhla Barrage Shahdara Outfall",
+        "node_type": "River Outfall / Barrage",
+        "elevation_m": 204.2,
+        "design_capacity_m3s": 95.0,
+        "connected_drain_id": "DRAIN_SHAHDARA_OUTLET",
+        "catchment": "Yamuna River Terminal Basin 3 (Trans-Yamuna)",
+        "critical_status": "CRITICAL_OUTFALL"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [77.3100, 28.5400]
+      }
+    }
+  ]
+}

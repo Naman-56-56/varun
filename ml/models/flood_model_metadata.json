@@ -1,0 +1,46 @@
+{
+  "model_name": "Varun XGBoost / GradientBoost Flood Risk Engine",
+  "version": "1.2.0-monsoon",
+  "training_samples": 6000,
+  "accuracy": 0.9358,
+  "r2_score": 0.9927,
+  "rmse_cm": 3.83,
+  "feature_importances": {
+    "rainfall_intensity": 64.43,
+    "elevation": 11.99,
+    "is_underpass": 7.14,
+    "impervious_pct": 6.96,
+    "forecast_next_1h": 2.72,
+    "cumulative_3h_rain": 1.34,
+    "drainage_capacity_m3s": 1.24,
+    "effective_drainage_cap": 1.15,
+    "drainage_siltation_pct": 0.76,
+    "historical_flood_freq": 0.69,
+    "previous_24h_rain": 0.54,
+    "distance_to_drain_m": 0.46,
+    "slope_pct": 0.43,
+    "soil_saturation_index": 0.16
+  },
+  "feature_columns": [
+    "rainfall_intensity",
+    "cumulative_3h_rain",
+    "previous_24h_rain",
+    "forecast_next_1h",
+    "elevation",
+    "slope_pct",
+    "impervious_pct",
+    "distance_to_drain_m",
+    "drainage_capacity_m3s",
+    "drainage_siltation_pct",
+    "effective_drainage_cap",
+    "historical_flood_freq",
+    "soil_saturation_index",
+    "is_underpass"
+  ],
+  "risk_classes": {
+    "0": "LOW",
+    "1": "MODERATE",
+    "2": "HIGH",
+    "3": "CRITICAL"
+  }
+}
